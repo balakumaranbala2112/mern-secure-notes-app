@@ -347,20 +347,6 @@ navigate('/notes')
 
 ---
 
-## 🐛 Common Issues & Fixes
-
-| Problem | Cause | Fix |
-|---|---|---|
-| Login/Register does nothing | Port mismatch in `.env` | Make sure `VITE_API_URL` port matches `PORT` in backend `.env` |
-| CORS error in browser | `CLIENT_URL` wrong | Set `CLIENT_URL=http://localhost:5173` in backend `.env` |
-| 401 on all note requests | Cookie not sent | Ensure `withCredentials: true` in `axiosInstance.js` |
-| MongoDB connection error | MongoDB not running | Run `mongod` or check your Atlas connection string |
-| `.env` changes not working | Vite caches `.env` | Restart `npm run dev` after any `.env` change |
-| `useAuth` error in console | AuthProvider missing | Check `routes.jsx` has `RootLayout` wrapping `AuthProvider` |
-| Toasts not appearing | `Toaster` not rendered | Add `<Toaster />` in `main.jsx` |
-
----
-
 ## 📜 Available Scripts
 
 ### Backend
@@ -432,7 +418,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 ## 👤 Author
 
 **Balakrishnan**
-- GitHub: [@your-username](https://github.com/your-username)
+- GitHub: [@your-username](https://github.com/balakumaranbala2112)
 
 ---
 
