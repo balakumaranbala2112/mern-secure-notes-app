@@ -136,7 +136,7 @@ const Login = () => {
 
             {/* Register redirect */}
             <p className="mt-5 text-sm text-center text-slate-500">
-              Don't have an account?{" "}
+              Don't have an account?
               <Link
                 to="/register"
                 className="font-medium text-indigo-600 hover:underline"
